@@ -1,6 +1,6 @@
 # mapbox-gl-draw-polygon-restrict-area
 
-> mapbox-gl drawing mode with
+> Draws rectangle, with area limitation
 
 [![NPM](https://img.shields.io/npm/v/mapbox-gl-draw-polygon-restrict-area.svg)](https://www.npmjs.com/package/mapbox-gl-draw-polygon-restrict-area) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
