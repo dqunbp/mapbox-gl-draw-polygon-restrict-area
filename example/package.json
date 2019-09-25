@@ -1,0 +1,25 @@
+{
+  "name": "mapbox-gl-draw-polygon-restrict-area-example",
+  "homepage": "https://dqunbp.github.io/mapbox-gl-draw-polygon-restrict-area-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dqunbp",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.1.2",
+    "@turf/area": "^6.0.1",
+    "mapbox-gl-draw-polygon-restrict-area": "file:.."
+  },
+  "browser": {
+    "fs": false
+  }
+}
