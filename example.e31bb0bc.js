@@ -11447,7 +11447,7 @@ var global = arguments[3];
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@turf/area'), require('@turf/helpers'), require('@mapbox/mapbox-gl-draw/src/constants'), require('@mapbox/mapbox-gl-draw/src/lib/common_selectors'), require('@mapbox/mapbox-gl-draw/src/lib/create_vertex'), require('@mapbox/mapbox-gl-draw/src/lib/double_click_zoom'), require('@mapbox/mapbox-gl-draw/src/lib/is_event_at_coordinates')) :
   typeof define === 'function' && define.amd ? define(['@turf/area', '@turf/helpers', '@mapbox/mapbox-gl-draw/src/constants', '@mapbox/mapbox-gl-draw/src/lib/common_selectors', '@mapbox/mapbox-gl-draw/src/lib/create_vertex', '@mapbox/mapbox-gl-draw/src/lib/double_click_zoom', '@mapbox/mapbox-gl-draw/src/lib/is_event_at_coordinates'], factory) :
   (global = global || self, global.drawPolygonRestrictArea = factory(global.area, global.helpers, global.Constants, global.CommonSelectors, global.createVertex, global.doubleClickZoom, global.isEventAtCoordinates));
-}(this, function (area, helpers, Constants, CommonSelectors, createVertex, doubleClickZoom, isEventAtCoordinates) { 'use strict';
+}(this, (function (area, helpers, Constants, CommonSelectors, createVertex, doubleClickZoom, isEventAtCoordinates) { 'use strict';
 
   area = area && area.hasOwnProperty('default') ? area['default'] : area;
   Constants = Constants && Constants.hasOwnProperty('default') ? Constants['default'] : Constants;
@@ -11670,7 +11670,7 @@ var global = arguments[3];
 
   return DrawPolygon;
 
-}));
+})));
 
 },{"@turf/area":"node_modules/@turf/area/index.js","@turf/helpers":"node_modules/@turf/helpers/index.js","@mapbox/mapbox-gl-draw/src/constants":"node_modules/@mapbox/mapbox-gl-draw/src/constants.js","@mapbox/mapbox-gl-draw/src/lib/common_selectors":"node_modules/@mapbox/mapbox-gl-draw/src/lib/common_selectors.js","@mapbox/mapbox-gl-draw/src/lib/create_vertex":"node_modules/@mapbox/mapbox-gl-draw/src/lib/create_vertex.js","@mapbox/mapbox-gl-draw/src/lib/double_click_zoom":"node_modules/@mapbox/mapbox-gl-draw/src/lib/double_click_zoom.js","@mapbox/mapbox-gl-draw/src/lib/is_event_at_coordinates":"node_modules/@mapbox/mapbox-gl-draw/src/lib/is_event_at_coordinates.js"}],"index.js":[function(require,module,exports) {
 "use strict";
@@ -11795,7 +11795,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60133" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63809" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
